@@ -103,9 +103,8 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
     </div>
+    <script>
+        CKEDITOR.replace( 'message' );
+    </script>
 </body>
-
-<script>
-    CKEDITOR.replace( 'message' );
-</script>
 </html>
